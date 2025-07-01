@@ -17,7 +17,7 @@ api_version = "2025-04"
 scopes = "write_products"
 
 [auth]
-redirect_urls = [ "https://shopify-sample-app-beta.vercel.app/auth" ]
+redirect_urls = [ "https://shopify-sample-app-beta.vercel.app/auth/callback" ]
 
 [pos]
 embedded = false
