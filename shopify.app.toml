@@ -3,7 +3,7 @@
 client_id = "b37852b9a344b0f140c8608c23c4ce3a"
 name = "qrcode-test"
 handle = "qrcode-test-13"
-application_url = "https://shopify-sample-app-beta.vercel.app"
+application_url = "https://shopify-sample-app-beta.vercel.app/"
 embedded = true
 
 [build]
@@ -17,7 +17,7 @@ api_version = "2025-04"
 scopes = "write_products"
 
 [auth]
-redirect_urls = [ "https://shopify-sample-app-beta.vercel.app/api/auth" ]
+redirect_urls = [ "https://shopify-sample-app-beta.vercel.app/auth" ]
 
 [pos]
 embedded = false
